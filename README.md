@@ -1,4 +1,4 @@
-# id-coastal-tourism-reviews
+# Indonesian Coastal Tourism Reviews Dataset
 
 Annotated Indonesian **coastal tourism** reviews (Google Maps) — cleaned, anonymized, and **triple-annotated** for sentiment analysis. Includes per-annotator labels, a **majority-vote** subset, and an **all-agree** subset.
 
