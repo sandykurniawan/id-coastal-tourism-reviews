@@ -51,16 +51,3 @@ All training and testing CSVs have been standardized to use `sentiment` as the t
 
 ## License
 This dataset is distributed under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license. You are free to share and adapt the material for any purpose, even commercially, as long as appropriate credit is given to the original authors.
-
-## Citation
-If you use this dataset in your research, please cite the following paper:
-
-```bibtex
-@article{kurniawan2026coastsent,
-  title={ID-CoastSent: A Dual-Annotated Sentiment Analysis Dataset for Indonesian Coastal Tourism to Support AI-Driven Infrastructure Development},
-  author={Kurniawan, Sandy and [Co-Authors]},
-  journal={Discover Artificial Intelligence},
-  year={2026},
-  publisher={Springer}
-}
-```
