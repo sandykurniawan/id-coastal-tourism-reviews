@@ -53,7 +53,7 @@ All training and testing CSVs have been standardized to use `sentiment` as the t
 | Column | Type | Description |
 | :--- | :--- | :--- |
 | `number_id` | Integer | Unique identifier for the review. |
-| `name` | String | Name or ID of the reviewer. |
+| `name` | String | The name of the coastal tourism destination/attraction. |
 | `province` | String | The Indonesian province where the coastal destination is located. |
 | `published_at_date` | Date | The original publication date of the review. |
 | `review_text` | String | The raw text of the review in Indonesian. |
