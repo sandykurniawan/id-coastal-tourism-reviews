@@ -60,6 +60,3 @@ All training and testing CSVs have been standardized to use `sentiment` as the t
 | `rating` | Integer | The original numerical rating (e.g., 1-5 stars) provided by the user. |
 | `Ann 1`, `Ann 2`, `Ann 3` | String | Individual sentiment labels assigned by the three human annotators. |
 | `sentiment` | String | The final aggregated label (`positive`, `negative`, `neutral`) used for model training/testing. |
-
-## License
-This dataset is distributed under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license. You are free to share and adapt the material for any purpose, even commercially, as long as appropriate credit is given to the original authors.
