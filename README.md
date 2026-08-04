@@ -43,9 +43,9 @@ An analysis of individual annotator distributions reveals consistent overall beh
 To prevent data leakage and provide a standardized benchmark, a strictly balanced testing set was extracted *before* the training data was partitioned. 
 
 1. **`test_set.csv` (300 rows):** The gold-standard evaluation set. Contains exactly 100 positive, 100 negative, and 100 neutral reviews sampled strictly from the unanimous agreement pool.
-2. **`train_all_agree.csv`:** The high-confidence training set. Contains only reviews where all three annotators were in absolute agreement. 
-3. **`train_majority_vote.csv`:** The broader training set containing all valid reviews where at least two annotators agreed on the sentiment, representing a noisier, real-world distribution.
-4. **`full_dataset_clean.csv` (21,779 rows):** The complete dataset prior to splitting, providing individual annotator votes (`Ann 1`, `Ann 2`, `Ann 3`) for researchers interested in custom cross-validation, label smoothing, or annotator disagreement studies.
+2. **`train_all_agree.csv` (15,527 rows):** The high-confidence training set. Contains only reviews where all three annotators were in absolute agreement. 
+3. **`train_majority_vote.csv` (21,235 rows):** The broader training set containing all valid reviews where at least two annotators agreed on the sentiment, representing a noisier, real-world distribution. *Note: To strictly prevent data leakage, the 300 reviews from the evaluation set have been completely excluded from this file.*
+4. **`full_dataset_clean.csv` (21,779 rows):** The complete dataset prior to splitting, providing individual annotator votes (`Ann 1`, `Ann 2`, `Ann 3`) for researchers interested in custom cross-validation, label smoothing, or annotator disagreement studies. *This file includes the 244 highly divergent reviews (3-way ties) that were excluded from the majority vote training set.*
 
 ## Data Dictionary
 All training and testing CSVs have been standardized to use `sentiment` as the target label column for seamless machine learning pipeline integration.
